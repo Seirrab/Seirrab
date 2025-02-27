@@ -1,1 +1,48 @@
 # https://seirrab.github.io
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<h2>quiz1</h2>
+
+<div class="row">
+  <div class="column" style="background-color:violet;">
+    <h2>box1</h2>
+    <p>having trouble adding images</p>
+  </div>
+  <div class="column" style="background-color:purple;">
+    <h2>box2</h2>
+    <p>text</p>
+  </div>
+  <div class="column" style="background-color:magenta;">
+    <h2>box3</h2>
+    <p>text</p>
+  </div>
+</div>
+
+</body>
+</html>
+
